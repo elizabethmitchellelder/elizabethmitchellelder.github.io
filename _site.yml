@@ -8,7 +8,7 @@ navbar:
     - text: "Research"
       href: about.html
     - text: "CV"
-      href: csv.html
+      href: mitchellcv.pdf
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
