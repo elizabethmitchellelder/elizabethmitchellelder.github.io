@@ -1,0 +1,20 @@
+name: "Elizabeth Mitchell"
+output_dir: "."
+navbar:
+  title: "Elizabeth Mitchell"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: about.html
+    - text: "CV"
+      href: csv.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/Elizabeth_L_M
+output:
+  html_document:
+    theme: paper
+    css: 'papercss-master/src/styles.scss'
