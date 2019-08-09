@@ -5,17 +5,17 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3155657949",
     "id" : "581016D1",
-    "lastKnownWriteTime" : 1565105327,
-    "last_content_update" : 1565105327655,
+    "lastKnownWriteTime" : 1565374161,
+    "last_content_update" : 1565374161236,
     "path" : "C:/Users/mitch/Documents/Life/elizabethmitchell.github.io/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "4,0",
+        "cursorPosition" : "5,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 2,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

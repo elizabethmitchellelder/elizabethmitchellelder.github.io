@@ -16,5 +16,6 @@ navbar:
       href: https://twitter.com/Elizabeth_L_M
 output:
   html_document:
-    theme: paper
+    theme: flatly
     css: 'papercss-master/src/styles.scss'
+    

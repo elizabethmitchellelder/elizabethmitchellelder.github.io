@@ -5,18 +5,18 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1560101412",
+    "hash" : "104597290",
     "id" : "B4C9FBDA",
-    "lastKnownWriteTime" : 1565105327,
-    "last_content_update" : 1565105327538,
+    "lastKnownWriteTime" : 1565374161,
+    "last_content_update" : 1565374161370,
     "path" : "C:/Users/mitch/Documents/Life/elizabethmitchell.github.io/contact.Rmd",
     "project_path" : "contact.Rmd",
     "properties" : {
-        "cursorPosition" : "6,42",
+        "cursorPosition" : "5,0",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
-    "relative_order" : 4,
+    "relative_order" : 6,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

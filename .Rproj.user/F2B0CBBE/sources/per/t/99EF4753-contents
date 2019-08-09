@@ -1,5 +1,9 @@
 ---
 title: "Research"
+output:
+  html_document:
+    theme: flatly
+
 ---
 
 <link rel="stylesheet" href="papercss-master/src/styles.scss" type="text/css">
