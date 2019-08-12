@@ -18,4 +18,5 @@ output:
   html_document:
     theme: flatly
     css: 'papercss-master/src/styles.scss'
-    
+    includes:
+       in_header: tracker.html
