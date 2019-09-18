@@ -9,7 +9,7 @@ output:
 
 <img src="IMG-0231.JPG" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am a Ph.D. candidate at the University of California Berkeley. As a political psychologist, my research interests include learning, attitude formation, and intuition. I am broadly interested in the role of automatic processes in the development of political knowledge and the formation and expression of political attitudes.
+I am a Ph.D. candidate at the University of California Berkeley. As a political psychologist, my research investigates the role of attitudes, beliefs, and identities in political behavior. I am broadly interested in how automatic and controlled processes combine to build political knowledge, form political attitudes, and develop political beliefs.
 
 Other ongoing work involves the role of place and social context, the features and predictors of strong political attitudes, and the development of survey experimental methods for addressing questions of interest to political science. 
 
