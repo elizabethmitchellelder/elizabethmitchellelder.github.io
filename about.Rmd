@@ -15,6 +15,7 @@ Below are descriptions of my ongoing research projects. My CV can be found [here
 This project presents a public dataset ( [available here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HEOSVW) ) of the perceived characteristics of more than 1000 common American first names. Survey experimenters using names to cue race or gender can use this data to select names that clearly signify a particular group membership without cuing other confounding attributes.
 
 <b> Social group knowledge and issue attitudes </b> (with Neil O'Brian)
+
 In 1964, Converse suggested that social group attitudes produce stability in and constraint between issue attitudes. We test this assertion and, using data reaching from the 1970s to the present, illustrate how the role of social groups in issue attitudes has changed with the growth of mass partisanship. Paper available upon request.
 
 <b> Context, Place, and Geography </b>
