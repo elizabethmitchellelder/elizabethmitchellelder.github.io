@@ -9,7 +9,7 @@ output:
 
 <img src="IMG-0231.JPG" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am a Ph.D. candidate in political science at the University of California Berkeley. My research centers on political psychology. I am broadly interested in how basic features of social cognition affect how people build political knowledge, form political attitudes, and develop political beliefs.
+I am a Ph.D. candidate in political science at the University of California Berkeley. My research centers on political behavior. I am broadly interested in how individuals' social and economic contexts shape their political knowledge, attitudes, and behavior. 
 
 My ongoing work involves the role of place and social context, the features and predictors of strong political attitudes, and the development of survey experimental methods for addressing questions of interest to political science. 
 
