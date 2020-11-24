@@ -16,11 +16,15 @@ This project presents a public dataset ( [available here](https://dataverse.harv
 
 <b> Social group knowledge and issue attitudes </b> (with Neil O'Brian)
 
-In 1964, Converse suggested that social group attitudes produce stability in and constraint between issue attitudes. We test this assertion and, using data reaching from the 1970s to the present, illustrate how the role of social groups in issue attitudes has changed with the growth of mass partisanship. Paper available upon request.
+In 1964, Converse suggested that social group attitudes produce stability in and constraint between issue attitudes. We test this assertion and, using data reaching from the 1970s to the present, illustrate how the role of social groups in issue attitudes has changed with the growth of mass partisanship. Paper [available here](attitude_attribution_draft.pdf).
 
 <b> Context, Place, and Geography </b>
 
 In a working paper, I develop a concept of geographic identity, or the extent to which a place is a part of an individual's self-concept. A large survey (n=9,000) provides evidence that states with residents who are more attached to their state have higher levels of social capital. Paper available upon request.
+
+<b> Industry dominance in the Rust and Coal Belts </b>
+
+Many declining places in the Midwest and Appalachia were once dominated by single industries. I present evidence that single-industry dominance has long-term consequences for an area's success and the well-being of its residents. 
 
 <b> Attitude formation and change </b> (with Casey Ste. Claire)
 
