@@ -5,7 +5,7 @@ output:
     theme: flatly
 ---
 
-<link rel="stylesheet" href="papercss-master/src/styles.css" type="text/css">
+<link rel="stylesheet" href="papercss/dist/paper.css" type="text/css">
 
 <img src="IMG-0231.JPG" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 

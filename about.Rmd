@@ -8,7 +8,7 @@ output:
 
 <link rel="stylesheet" href="papercss-master/src/styles.scss" type="text/css">
 
-Below are descriptions of my ongoing research projects. My CV can be found [here](mitchellcv.pdf).
+Below are descriptions of my ongoing research projects. My CV can be found [here](mitchell_elder_cv.pdf).
 
 <b> Name characteristics for survey experiments </b> (with Matthew Hayes)
 

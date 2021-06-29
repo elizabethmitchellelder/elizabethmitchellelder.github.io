@@ -1,22 +1,22 @@
-name: "Elizabeth Mitchell"
+name: "Elizabeth Mitchell Elder"
 output_dir: "."
 navbar:
-  title: "Elizabeth Mitchell"
+  title: "Elizabeth Mitchell Elder"
   left:
     - text: "Home"
       href: index.html
     - text: "Research"
       href: about.html
     - text: "CV"
-      href: mitchellcv.pdf
+      href: mitchell_elder_cv.pdf
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
-    - icon: fa-twitter fa-lg
+    - icon: fab fa-twitter
       href: https://twitter.com/Elizabeth_L_M
 output:
   html_document:
     theme: flatly
-    css: 'papercss-master/src/styles.scss'
+    css: 'papercss/dist/paper.css'
     includes:
        in_header: tracker.html
