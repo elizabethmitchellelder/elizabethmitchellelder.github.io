@@ -9,10 +9,12 @@ output:
 
 <img src="IMG-0231.JPG" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am a Ph.D. candidate in political science at the University of California Berkeley. My research centers on political behavior. I am broadly interested in how individuals' social and economic contexts shape their political knowledge, attitudes, and behavior. 
+I am a Ph.D. candidate in political science at the University of California Berkeley. This fall, I will begin work as a postdoctoral researcher at Princeton University. 
 
-My ongoing work involves the role of place and social context, the features and predictors of strong political attitudes, and the development of survey experimental methods for addressing questions of interest to political science. 
+My research interests combine political psychology and political economy to understand how people's contexts--social, informational, economic, and otherwise--equip them with the resources they need to participate in politics. 
 
-My teaching interests involve research methods, quantitative analysis, and causal inference, especially at the undergraduate level. 
+I am particularly interested in processes of mutual influence between institutions and their citizens' knowledge, efficacy, and trust. Other ongoing work involves the role of place and social context in political attitudes and the development of survey experimental methods for addressing questions of interest to political science. 
 
-Please contact me at elizabeth_mitchell (at) berkeley (dot) edu .
+My teaching interests center on quantitative methods, especially research design, causal inference, and computational techniques. 
+
+Please contact me at e.mitchell.elder (at) princeton (dot) edu .

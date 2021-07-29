@@ -10,29 +10,29 @@ output:
 
 Below are descriptions of my ongoing research projects. My CV can be found [here](mitchell_elder_cv.pdf).
 
-<b> Name characteristics for survey experiments </b> (with Matthew Hayes)
+<b> The Political Resource Curse in Eastern Coal Country </b> (Job Market Paper)
 
-This project presents a public dataset ( [available here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HEOSVW) ) of the perceived characteristics of more than 1000 common American first names. Survey experimenters using names to cue race or gender can use this data to select names that clearly signify a particular group membership without cuing other confounding attributes.
+For more than 100 years, the coal industry has dominated the economy and politics of mining areas in Appalachia and the Illinois Basin. This project documents how single-industry dominance shaped local governments in mining areas and traces the long-term consequences of captured, low-capacity institutions for modern political behavior. Paper [available here](jmp_mitchellelder.pdf). 
 
 <b> Social group knowledge and issue attitudes </b> (with Neil O'Brian)
 
 In 1964, Converse suggested that social group attitudes produce stability in and constraint between issue attitudes. We test this assertion and, using data reaching from the 1970s to the present, illustrate how the role of social groups in issue attitudes has changed with the growth of mass partisanship. Paper [available here](attitude_attribution_draft.pdf).
 
+<b> Name characteristics for survey experiments </b> (with Matthew Hayes)
+
+This project presents a public dataset ( [available here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HEOSVW) ) of the perceived characteristics of more than 1000 common American first names. Survey experimenters using names to cue race or gender can use this data to select names that clearly signify a particular group membership without cuing other confounding attributes.
+
 <b> Context, Place, and Geography </b>
 
 In a working paper, I develop a concept of geographic identity, or the extent to which a place is a part of an individual's self-concept. A large survey (n=9,000) provides evidence that states with residents who are more attached to their state have higher levels of social capital. Paper available upon request.
 
-<b> Industry dominance in the Rust and Coal Belts </b>
+<b> Psychological power and political participation </b>
 
-Many declining places in the Midwest and Appalachia were once dominated by single industries. I present evidence that single-industry dominance has long-term consequences for an area's success and the well-being of its residents. 
+This project explores the political implications of feeling powerful. Evidence from several large, high-quality surveys suggests that people who feel in control of what happens in their lives participate in politics at higher rates. Using panel data and survey experiments, I shed light on whether this relationship is causal. Paper available upon request.
 
 <b> Attitude formation and change </b> (with Casey Ste. Claire)
 
 In this line of research, we investigate the causes and consequences of strong political attitudes. Building on Converse's black and white model, as well as more recent work in social psychology on attitude formation processes, we propose a model of attitude strength as jointly determined by features of the context, attitude object, and individual. Paper available upon request.
-
-<b> Psychological power and political participation </b>
-
-This project explores the political implications of feeling powerful. Evidence from several large, high-quality surveys suggests that people who feel in control of what happens in their lives participate in politics at higher rates. Using panel data and survey experiments, I shed light on whether this relationship is causal.
 
 <b> Experimental methods </b>
 

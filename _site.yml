@@ -13,7 +13,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fab fa-twitter
-      href: https://twitter.com/Elizabeth_L_M
+      href: https://twitter.com/elizabethmelder
 output:
   html_document:
     theme: flatly
