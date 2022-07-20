@@ -7,7 +7,7 @@ output:
 
 <link rel="stylesheet" href="papercss/dist/paper.css" type="text/css">
 
-<img src="IMG-0231.JPG" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="elder_headshot.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 I am currently a postdoctoral researcher at Princeton University. In August 2021, I received my Ph.D. from the Department of Political Science at the University of California, Berkeley. 
 
