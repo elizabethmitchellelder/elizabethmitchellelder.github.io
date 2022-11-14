@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -68,6 +68,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="papercss/dist/paper.css" type="text/css" />
 
 
@@ -92,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -149,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -244,7 +252,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -291,21 +299,89 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="papercss-master/src/styles.scss" type="text/css"></p>
-<p>Below are descriptions of my ongoing research projects. My CV can be found <a href="mitchell_elder_cv.pdf">here</a>.</p>
-<p><b> The Political Resource Curse in Eastern Coal Country </b> (Job Market Paper)</p>
-<p>For more than 100 years, the coal industry has dominated the economy and politics of mining areas in Appalachia and the Illinois Basin. This project documents how single-industry dominance shaped local governments in mining areas and traces the long-term consequences of captured, low-capacity institutions for modern political behavior. Paper <a href="jmp_mitchellelder.pdf">available here</a>.</p>
-<p><b> Social group knowledge and issue attitudes </b> (with Neil O’Brian)</p>
-<p>In 1964, Converse suggested that social group attitudes produce stability in and constraint between issue attitudes. We test this assertion and, using data reaching from the 1970s to the present, illustrate how the role of social groups in issue attitudes has changed with the growth of mass partisanship. Paper <a href="attitude_attribution_draft.pdf">available here</a>.</p>
-<p><b> Name characteristics for survey experiments </b> (with Matthew Hayes)</p>
-<p>This project presents a public dataset ( <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HEOSVW">available here</a> ) of the perceived characteristics of more than 1000 common American first names. Survey experimenters using names to cue race or gender can use this data to select names that clearly signify a particular group membership without cuing other confounding attributes.</p>
-<p><b> Context, Place, and Geography </b></p>
-<p>In a working paper, I develop a concept of geographic identity, or the extent to which a place is a part of an individual’s self-concept. A large survey (n=9,000) provides evidence that states with residents who are more attached to their state have higher levels of social capital. Paper available upon request.</p>
+<p>Below are descriptions of my ongoing research projects. My CV can be
+found <a href="mitchell_elder_cv.pdf">here</a>.</p>
+<p style="color:Gainsboro;font-size:150%;">
+<em> Book Project </em>
+</p>
+<p><b> The Political Resource Curse in Eastern Coal Country </b> (Book
+Project)</p>
+<p>For more than 100 years, the coal industry has dominated the economy
+and politics of mining areas in Appalachia and the Illinois Basin. This
+project documents how single-industry dominance shaped local governments
+in mining areas and traces the long-term consequences of captured,
+low-capacity institutions for modern political behavior. A paper drawing
+on material from the book project is <a
+href="jmp_mitchellelder.pdf">available here</a>.</p>
+<p style="color:Gainsboro;font-size:150%;">
+<em> Political Relevance of Knowledge about Social Groups </em>
+</p>
+<p><b> Social group knowledge and issue attitudes </b> (with Neil
+O’Brian)</p>
+<p>In 1964, Converse suggested that social group attitudes produce
+stability in and constraint between issue attitudes. We test this
+assertion and, using data reaching from the 1970s to the present,
+illustrate how the role of social groups in issue attitudes has changed
+with the growth of mass partisanship. Paper <a
+href="attitude_attribution_draft.pdf">available here</a>.</p>
+<p><b> Journalist and Public Perceptions of Polarization </b> (with Neil
+O’Brian)</p>
+<p>Americans overestimate polarization between social groups on matters
+of group-related public policy. We argue these perceptions are caused by
+media portrayals. Using a large survey of political news producers, we
+demonstrate that political journalists, like the mass public,
+overrestimate group polarization. We then provide evidence linking these
+perceptions to the production and public interpretation of political
+news.</p>
+<p style="color:Gainsboro;font-size:150%;">
+<em> Political Participation </em>
+</p>
+<p><b> Race and Participation in Small Groups </b></p>
+<p>In a series of papers with Tali Mendelberg and Christopher Karpowitz,
+we draw on 3,000 mock jury deliberations to study how participants of
+different racial backgrounds make their voices heard in discussions and
+their opinions reflected in group decisions.</p>
+<p><b> Neighborhood Context and Political Participation </b></p>
+<p>(With Tali Mendelberg and Ryan Enos) Using data from the Moving to
+Opportunity experiment merged with a national voter file, we study the
+effects of changes in neighborhood poverty on political
+participation–and how these effects vary by participants’ age at the
+time of the intervention.</p>
 <p><b> Psychological power and political participation </b></p>
-<p>This project explores the political implications of feeling powerful. Evidence from several large, high-quality surveys suggests that people who feel in control of what happens in their lives participate in politics at higher rates. Using panel data and survey experiments, I shed light on whether this relationship is causal. Paper available upon request.</p>
+<p>This project explores the political implications of feeling powerful.
+Evidence from several large, high-quality surveys suggests that people
+who feel in control of what happens in their lives participate in
+politics at higher rates. Using panel data and survey experiments, I
+shed light on whether this relationship is causal. Paper available upon
+request.</p>
+<p style="color:Gainsboro;font-size:150%;">
+<em> Methods for Survey Research </em>
+</p>
+<p><b> Name characteristics for survey experiments </b> (with Matthew
+Hayes)</p>
+<p>This project presents a public dataset ( <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HEOSVW">available
+here</a> ) of the perceived characteristics of more than 1000 common
+American first names. Survey experimenters using names to cue race or
+gender can use this data to select names that clearly signify a
+particular group membership without cuing other confounding
+attributes.</p>
 <p><b> Attitude formation and change </b> (with Casey Ste. Claire)</p>
-<p>In this line of research, we investigate the causes and consequences of strong political attitudes. Building on Converse’s black and white model, as well as more recent work in social psychology on attitude formation processes, we propose a model of attitude strength as jointly determined by features of the context, attitude object, and individual. Paper available upon request.</p>
-<p><b> Experimental methods </b></p>
-<p>My work in this area focuses on how to better construct survey experimental treatments and analyze survey experimental data.</p>
+<p>In this line of research, we investigate the causes and consequences
+of strong political attitudes. Building on Converse’s black and white
+model, as well as more recent work in social psychology on attitude
+formation processes, we propose a model of attitude strength as jointly
+determined by features of the context, attitude object, and individual.
+Paper available upon request.</p>
+<p style="color:Gainsboro;font-size:150%;">
+<em> Geography and Political Behavior </em>
+</p>
+<p><b> Geographic Identity </b></p>
+<p>In a working paper, I develop a concept of geographic identity, or
+the extent to which a place is a part of an individual’s self-concept. A
+large survey (n=9,000) provides evidence that states with residents who
+are more attached to their state have higher levels of social capital.
+Paper available upon request.</p>
 
 
 
