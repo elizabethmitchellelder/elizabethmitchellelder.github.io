@@ -13,7 +13,7 @@
 
 <title>Welcome!</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -153,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -308,8 +312,8 @@ institutions and their citizens’ knowledge, efficacy, and trust. Other
 ongoing work involves the role of place and social context in political
 attitudes and the development of survey experimental methods for
 addressing questions of interest to political science.</p>
-<p>My teaching interests center on quantitative methods, especially
-research design, causal inference, and computational techniques.</p>
+<p>My teaching interests center on American politics, political
+behavior, and research design.</p>
 <p>Please contact me at emelder (at) stanford (dot) edu .</p>
 
 
